@@ -39,19 +39,21 @@ const Footer = class extends React.Component {
                         Бүтээгдэхүүн
                       </Link>
                     </li>
+                    <!--
                     <li>
                       <Link className="navbar-item" to="/contact/examples">
                         Form Examples
                       </Link>
                     </li>
                     <li>
+                      -->
                       <a
                         className="navbar-item"
                         href="/admin/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Admin
+                        Админ
                       </a>
                     </li>
                   </ul>
@@ -62,12 +64,12 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                        Сүүлд нэмэгдсэн
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        Холбоо барих
                       </Link>
                     </li>
                   </ul>
